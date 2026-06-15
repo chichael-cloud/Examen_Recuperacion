@@ -8,7 +8,7 @@ public class ValidadorEnvio {
             return false;
         }
 
-        if (codigo.length() != 10) {
+        if (codigo.length() == 10) {
             return false;
         }
 		return true ;
